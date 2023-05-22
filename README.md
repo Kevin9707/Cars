@@ -1,4 +1,28 @@
-# Cars
+#This code is a simple project that uses OpenCV to detect vehicles on the road. The code includes the ability to read frames from a given video file, detect vehicles, and count the number of vehicles detected.
+
+Here are the main features of the project
+
+Open the given movie file (traffic.mp4) with the cap variable, and set the frame rate.
+To detect vehicles, calculate the difference between frames, binarize them to detect boundaries.
+Find a valid boundary that represents a vehicle, and mark that boundary with a rectangle.
+Find the center point of the vehicle and use it to track the vehicle's movement.
+Detect if a vehicle passes over a given line height, and count the number of vehicles that have passed.
+Display the result in a frame and output the number of vehicles detected.
+The code uses comments to explain the role of each step and variable. We're using OpenCV functions and classes for image processing and computer vision, and we're outputting the movement of vehicles and the number of detected vehicles to the console as the program runs.
+
+To run the project, you need the traffic.mp4 file and the OpenCV library. Add the movie file to your project folder, run the code, and you should see the vehicle detection results.This code is a simple project that uses OpenCV to detect vehicles on the road. The code includes the ability to read frames from a given video file, detect vehicles, and count the number of vehicles detected.
+
+Here are the main features of the project
+
+Open the given movie file (traffic.mp4) with the cap variable, and set the frame rate.
+To detect vehicles, calculate the difference between frames, binarize them to detect boundaries.
+Find a valid boundary that represents a vehicle, and mark that boundary with a rectangle.
+Find the center point of the vehicle and use it to track the vehicle's movement.
+Detect if a vehicle passes over a given line height, and count the number of vehicles that have passed.
+Display the result in a frame and output the number of vehicles detected.
+The code uses comments to explain the role of each step and variable. We're using OpenCV functions and classes for image processing and computer vision, and we're outputting the movement of vehicles and the number of detected vehicles to the console as the program runs.
+
+To run the project, you need the traffic.mp4 file and the OpenCV library. Add the movie file to your project folder, run the code, and you should see the vehicle detection results.
 
 import cv2
 import numpy as np
