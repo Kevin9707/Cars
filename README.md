@@ -104,3 +104,7 @@ while ret:
 
 cv2.destroyAllWindows()
 cap.release()
+
+
+
+https://github.com/Kevin9707/Cars/assets/113577031/0ec93554-2da6-4730-9e8c-7f2bbc68b754
